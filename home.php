@@ -8,10 +8,11 @@ add_action( 'genesis_meta', 'mustsee_home_genesis_meta' );
 function mustsee_home_genesis_meta() {
 
 	$sidebar_widget_areas = array(
-		'home-top',
-		'home-middle',
-		'home-bottom-left',
-		'home-bottom-right'
+		'slider',
+		'welcome',
+		'home-middle-left',
+		'home-middle-right',
+		'home-bottom'
 	);
 
 	if ( ! any_mustsee_sidebar_is_active($sidebar_widget_areas) ) {
@@ -34,39 +35,49 @@ function mustsee_custom_home_page_body_class( $classes ) {
  */
 function mustsee_home_loop_helper() {
 
-	if ( is_active_sidebar( 'home-top' ) ) {
+	if ( is_active_sidebar( 'slider' ) ) {
 		echo '
-		<div class="home-top">
+		<div class="slider">
 			<div class="wrap">';
-			dynamic_sidebar( 'home-top' );
+			dynamic_sidebar( 'slider' );
 		echo '
 			</div><!-- end .wrap -->
-		</div><!-- end .home-top -->';
+		</div><!-- end .slider -->';
 	}
 
-	if ( is_active_sidebar( 'home-middle' ) ) {
+	if ( is_active_sidebar( 'welcome' ) ) {
 		echo '
-		<div class="home-middle">
+		<div class="welcome">
 			<div class="wrap">';
-			dynamic_sidebar( 'home-middle' );
+			dynamic_sidebar( 'welcome' );
 		echo '
 			</div><!-- end .wrap -->
+		</div><!-- end .welcome -->';
+	}
+
+	if ( is_active_sidebar( 'home-middle-left' ) || is_active_sidebar( 'home-middle-right' ) ) {
+		echo '
+		<div class="home-middle clearfix">
+			<div class="wrap">';
+			echo '<div class="home-middle-left one-half first">';
+			dynamic_sidebar( 'home-middle-left' );
+			echo '</div><!-- end .home-middle-left -->';
+
+			echo '<div class="home-middle-right one-half">';
+			dynamic_sidebar( 'home-middle-right' );
+			echo '</div><!-- end .home-middle-right -->';
+			echo '
+			</div>
 		</div><!-- end .home-middle -->';
 	}
 
-	if ( is_active_sidebar( 'home-bottom-left' ) || is_active_sidebar( 'home-bottom-right' ) ) {
+	if ( is_active_sidebar( 'home-bottom' ) ) {
 		echo '
-		<div class="home-bottom clearfix">
+		<div class="home-bottom">
 			<div class="wrap">';
-			echo '<div class="home-bottom-left two-thirds first">';
-			dynamic_sidebar( 'home-bottom-left' );
-			echo '</div><!-- end .home-bottom-left -->';
-
-			echo '<div class="home-bottom-right one-third">';
-			dynamic_sidebar( 'home-bottom-right' );
-			echo '</div><!-- end .home-bottom-right -->';
-			echo '
-			</div>
+			dynamic_sidebar( 'home-bottom' );
+		echo '
+			</div><!-- end .wrap -->
 		</div><!-- end .home-bottom -->';
 	}
 }

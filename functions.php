@@ -18,12 +18,11 @@ function mustsee_theme_setup() {
 
 	# Image Sizes
 	add_image_size('mini', 75, 75, true);
-	add_image_size('properties', 560, 400, true);
-	add_image_size('wide_featured', 678, 226, true);
+	add_image_size('homepage-posts', 535, 170, true);
 
 	# Sidebars
 	unregister_sidebar('sidebar-alt');
-	add_theme_support('genesis-footer-widgets', 3);
+	add_theme_support('genesis-footer-widgets', 4);
 
 	# Remove Unused Page Layouts
 	genesis_unregister_layout( 'content-sidebar-sidebar' );
@@ -50,6 +49,9 @@ function mustsee_theme_setup() {
 	remove_action( 'genesis_after_header', 'genesis_do_nav' );
 	remove_action( 'genesis_after_header', 'genesis_do_subnav' );
 
+	# add excerpts to pages
+	add_action( 'init', 'mustsee_add_excerpts_to_pages' );
+
 	mustsee_register_sidebars();
 
 
@@ -64,6 +66,9 @@ function mustsee_theme_setup() {
 
 	# Responsive Meta Tag
 	add_action('genesis_meta', 'mustsee_viewport_meta_tag');
+
+	# Before Header
+	add_action('genesis_before_header', 'mustsee_before_header');
 
 	# Footer
 	remove_action('genesis_footer', 'genesis_do_footer');
@@ -132,24 +137,34 @@ function mustsee_dont_update_theme( $r, $url ) {
 
 function mustsee_register_sidebars() {
 	genesis_register_sidebar( array(
-		'id'			=> 'home-top',
-		'name'			=> 'Home Top',
-		'description'	=> 'This is the Home Top section'
+		'id'			=> 'top-header',
+		'name'			=> 'Top Header',
+		'description'	=> 'This is the small bar above the header'
 	) );
 	genesis_register_sidebar( array(
-		'id'			=> 'home-middle',
-		'name'			=> 'Home Middle',
-		'description'	=> 'This is the Home Middle section'
+		'id'			=> 'slider',
+		'name'			=> 'Slider',
+		'description'	=> 'This is the Slider section'
 	) );
 	genesis_register_sidebar( array(
-		'id'			=> 'home-bottom-left',
-		'name'			=> 'Home Bottom Left',
-		'description'	=> 'This is the Home Bottom Left section'
+		'id'			=> 'welcome',
+		'name'			=> 'Welcome',
+		'description'	=> 'This is the Welcome section'
 	) );
 	genesis_register_sidebar( array(
-		'id'			=> 'home-bottom-right',
-		'name'			=> 'Home Bottom Right',
-		'description'	=> 'This is the Home Bottom Right section'
+		'id'			=> 'home-middle-left',
+		'name'			=> 'Home Middle Left',
+		'description'	=> 'This is the Home Middle Left section'
+	) );
+	genesis_register_sidebar( array(
+		'id'			=> 'home-middle-right',
+		'name'			=> 'Home Middle Right',
+		'description'	=> 'This is the Home Middle Right section'
+	) );
+	genesis_register_sidebar( array(
+		'id'			=> 'home-bottom',
+		'name'			=> 'Home Bottom',
+		'description'	=> 'This is the Home Bottom section'
 	) );
 }
 
@@ -173,6 +188,13 @@ function mustsee_customize_menu_link() {
     add_theme_page( 'Customize', 'Customize', 'edit_theme_options', 'customize.php' );
 }
 
+/**
+ * Adds support for excerpts on pages
+ */
+function mustsee_add_excerpts_to_pages() {
+     add_post_type_support( 'page', 'excerpt' );
+}
+
 
 # Frontend Functions
 # ========================================================================
@@ -189,6 +211,21 @@ function mustsee_favicon_filter() {
  */
 function mustsee_viewport_meta_tag() {
 	echo '<meta name="viewport" content="width=device-width, initial-scale=1.0"/>';
+}
+
+/**
+ * Add widget area before header
+ */
+function mustsee_before_header() {
+	if ( is_active_sidebar( 'top-header' ) ) {
+		echo '
+		<div class="top-header">
+			<div class="wrap">';
+			dynamic_sidebar( 'top-header' );
+		echo '
+			</div><!-- end .wrap -->
+		</div><!-- end .top-header -->';
+	}
 }
 
 /**
@@ -242,7 +279,7 @@ function agentevo_footer_copy() {
  * Adds link to document head for google web fonts
  */
 function mustsee_web_fonts() {
-	echo "<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>";
+	echo "<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Crimson+Text' rel='stylesheet' type='text/css'>";
 }
 
 /**
@@ -320,4 +357,4 @@ require_once get_stylesheet_directory() . '/lib/functions/mustsee-genesis-settin
 require_once get_stylesheet_directory() . '/lib/functions/theme-customizations.php';
 
 # Custom CSS editor
-require_once get_stylesheet_directory() . '/lib/functions/custom-css.php'; 
+require_once get_stylesheet_directory() . '/lib/functions/custom-css.php';
