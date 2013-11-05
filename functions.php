@@ -18,7 +18,7 @@ function mustsee_theme_setup() {
 
 	# Image Sizes
 	add_image_size('mini', 75, 75, true);
-	add_image_size('homepage-posts', 535, 170, true);
+	add_image_size('properties', 535, 170, true);
 
 	# Sidebars
 	unregister_sidebar('sidebar-alt');
