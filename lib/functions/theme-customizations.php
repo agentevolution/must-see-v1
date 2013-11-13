@@ -100,7 +100,7 @@ class Must_See_Theme_Options {
 
 		// Home Featured Image
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'home_featured_image', array(
-				'label'      => __( 'Home Featured Image - Use a 1200x301 pixel image for best results', 'mustsee' ),
+				'label'      => __( 'Home Featured Image - Use an approximately 1260x475 pixel image for best results', 'mustsee' ),
 				'section'    => 'mustsee_homepage',
 				'settings'   => 'home_featured_image',
 				'priority'   => 1
@@ -154,7 +154,7 @@ class Must_See_Theme_Options {
 			self::generate_css('.header-image .site-title a', 'width', 'logo_image_width', '', 'px');
 
 			// Home Featured Image
-			self::generate_css('.home .home-top', 'background-image', 'home_featured_image', 'url(', ')' );
+			self::generate_css('.home .home-bottom', 'background-image', 'home_featured_image', 'url(', ')' );
 
 			?>
 		</style>
@@ -236,7 +236,6 @@ class Must_See_Theme_Options {
 			'logo_display_type',
 			'logo_image',
 			'logo_image_width',
-			
 			'home_featured_image'
 		);
 	}
