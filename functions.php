@@ -20,6 +20,9 @@ function mustsee_theme_setup() {
 	add_image_size('mini', 75, 75, true);
 	add_image_size('properties', 535, 170, true);
 
+	# Create additional color style options
+	add_theme_support( 'genesis-style-selector', array( 'mustsee-orange' => 'Orange', 'mustsee-teal' => 'Teal' ) );
+
 	# Sidebars
 	unregister_sidebar('sidebar-alt');
 	add_theme_support('genesis-footer-widgets', 4);
