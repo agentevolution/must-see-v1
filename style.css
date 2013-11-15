@@ -132,7 +132,7 @@ input,
 button,
 select,
 textarea {
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
+	font-family: Crimson Text, sans-serif;
 }
 
 select,
@@ -345,6 +345,7 @@ body {
 header.site-header {
 	color: #4A3E2E;
 	overflow: hidden;
+	padding: 20px 0 20px;
 	width: 100%;
 	min-height: 86px;
 	background: url(images/bg-header.png);
@@ -361,7 +362,8 @@ header.site-header .wrap {
 }
 
 .site-title {
-	font-size: 30px;
+	font-family: Crimson Text;
+	font-size: 32px;
 	line-height: 30px;
 	margin: 0;
 	padding-left: 64px;
@@ -379,14 +381,17 @@ header.site-header .wrap {
 }
 
 .site-description {
-	font-size: 14px;
+	font-family: Crimson Text;
+	font-size: 15px;
 	color: #AA9C84;
 }
 
 header .widget-area {
-	float: right;
-	margin-top: -9px;
-	width: 65%;
+float: right;
+font-family: Crimson Text;
+font-size: 18px;
+margin-top: -9px;
+width: 65%;
 }
 
 header .widget-area .agent-social-icons {
@@ -397,7 +402,7 @@ header .widget-area .agent-phone {
 	display: block;
 	text-align: right;
 	font-size: 22px;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
+	font-family: Crimson Text, sans-serif;
 	font-weight: bold;
 	margin-bottom: 4px;
 	margin-top: 3px;
@@ -574,8 +579,7 @@ header .genesis-nav-menu li li a:visited {
 	background: transparent url(images/search_icon.png)no-repeat ;
 	background-color: #F5EBD9;
 	margin-top: -48px;
-	margin-right: 32px;
-	padding: 4px 0 3px 38px;
+	padding: 4px 0 3px 40px;
 }
 
 .top-header input[type="color"] {
@@ -639,7 +643,7 @@ nav.nav-primary li a {
 	color: #fff;
 	font-size: 18px;
 	padding: 14px 15px 11px;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
+	font-family: PT Sans Regular, sans-serif;
 	text-shadow: 1px 1px 1px rgba(10,20,37,0.83);
 }
 
@@ -767,7 +771,7 @@ nav.nav-secondary li a,
 	color: #fff;
 	font-size: 18px;
 	padding: 14px 15px 11px;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
+	font-family: PT Sans Regular, sans-serif;
 	text-shadow: 1px 1px 1px #342b23;
 }
 
@@ -1047,7 +1051,8 @@ p.subscribe-to-comments {
 	background-color: #F1E8D7;
 	border-bottom: solid #DBD0BC 3px;
 	color: #4A3E2E;
-	font-size: 21px;
+	font-family:  Crimson Text;
+	font-size: 24px;
 	line-height: 150%;
 	padding: 20px 0;
 	text-align: center;
@@ -1070,18 +1075,19 @@ p.subscribe-to-comments {
 	color: #F5EBD9;
 	opacity:0.4;
 	filter:alpha(opacity=40); /* For IE8 and earlier */
-	padding: 6px 6px;
+	padding: 10px 23px;
 	text-align: center;
 }
 
 
 .slide-caption h3  {
-	font-size: 20px;
 	color: #F5EBD9;
+	font-family: Crimson Text ;
 }
 
 .slide-caption p {
 	color: #F5EBD9;
+	font-size: 13px;
 }
 
 /* =Home Middle
@@ -1094,33 +1100,47 @@ p.subscribe-to-comments {
 	-moz-box-shadow: inset 0px 70px 50px -90px  rgba(0,0,0,1);
 	box-shadow: inset 0px 70px 50px -90px  rgba(0,0,0,1);
 	border-top: solid #AA9C84 2px;
+	font-family: Crimson Text;
+}
+
+h4.widget-title.widgettitle{
+	font-family: Crimson Text;
+	margin-bottom: 11px;
+}
+
+.home-middle h2 {
+	text-align: center;
 }
 
 .home-middle h2 a {
 	color: #4A3E2E;
-}
-
-.home-middle h2 {
-	margin: 0 0 3px;
+	font-family: Crimson Text;
+	font-size: 24px;
+	text-align: center;
 }
 
 .home-middle a:visted {
 	color: #4A3E2E;
 }
 
-.home-middle .entry-comments-link {
-	color: #552448;
+p.byline.post-info {
+	font-family: PT Sans Regular;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 22px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
 }
 
+.home-middle .entry-comments-link 
 .home-middle .entry-comments-link a {
 	color: #552448;
 }
 
-.mustsee-teal .home-middle .entry-comments-link a {
-	color: #496B66;
-}
-
-.mustsee-orange .home-middle .entry-comments-link a {
+.mustsee-orange .home-middle 
+.entry-comments-link a {
 	color: #C66132;
 }
 
@@ -1136,16 +1156,9 @@ p.subscribe-to-comments {
 	color: #496B66;
 }
 
-.home-middle .entry-time {
+.home-middle .time .entry-time 
+.home-middle p{
 	color: #4A3E2E;
-}
-
-.home-middle h2 {
-	text-align: center;
-}
-
-.home-middle .entry-time h3, .home-middle p {
-	color: #AA9C84;
 	text-align: center;
 }
 
@@ -1156,10 +1169,6 @@ p.subscribe-to-comments {
 .home-middle-left.one-half{
 	padding-right: 20px;
 	padding-top: 30px;
-}
-
-.home-middle-left h4.widget-title.widgettitle{
-	margin-bottom: 11px;
 }
 
 .home-middle-right.one-half{
@@ -1175,9 +1184,8 @@ p.subscribe-to-comments {
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 473px;
-	border-top: 1px solid #c7c7c7;
+	border-top: 1px solid #373940;
 	color: #F5EBD9;
-	padding: 32px 0 15px;
 	text-align: center;
 }
 
@@ -1338,7 +1346,6 @@ h4,
 h5,
 h6 {
 	margin: 0 0 5px;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
 }
 
 h1,
@@ -1347,7 +1354,6 @@ h2 a,
 h2 a:visited {
 	font-size: 24px;
 	line-height: 30px;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
 }
 
 h1.entry-title {
@@ -1391,6 +1397,7 @@ h4 {
 	-moz-box-shadow: 0px 20px 0px 0px rgba(85,72,52,1);
 	box-shadow: 0px 1px 0px 0px rgba(85,72,52,1);
 	color: #F5EBD9;
+	font-family: Crimson Text;
 	font-size: 20px;
 	font-weight: 300;
 	line-height: 100%;
@@ -2177,7 +2184,7 @@ nav.nav-primary .searchform {
 	-moz-box-shadow: inset 0px 70px 79px -60px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 70px 79px -60px rgba(0,0,0,0.75);
 	color: #F5EBD9;
-	font-family: PT Sans;
+	font-family: Crimson Text;
 	font-size: 12px;
 	padding: 26px 0;
 	width: 100%;
@@ -2189,10 +2196,15 @@ nav.nav-primary .searchform {
 	padding: 0;
 }
 
-.footer-widgets .textwidget {
-	padding: 0;
+.footer-widgets p {
+	font-family: PT Sans;
 }
 
+.footer-widgets .textwidget {
+	font-family: PT Sans;
+	padding: 0;
+}
+.footer-widgets p
 .footer-widgets .widget_tag_cloud div div {
 	padding: 0;
 }
@@ -2241,7 +2253,7 @@ nav.nav-primary .searchform {
 .footer-widgets .menu li a {
 	font-size: 16px;
 	text-transform: uppercase;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
+	font-family: Crimson Text, sans-serif;
 	margin-bottom: 20px;
 	display: inline-block;
 }
@@ -2370,7 +2382,6 @@ div.gform_wrapper input,
 div.gform_wrapper select,
 div.gform_wrapper textarea {
 	color: #333;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
 	font-size: 12px !important;
 	padding: 4px 5px !important;
 }
@@ -2434,8 +2445,7 @@ iframe {
 
 .listing-wrap {
 	float: left;
-	font-family: PT Sans;
-	font-size: 12px;
+	font-family: PT Sans Regular;
 	position: relative;
 }
 
@@ -2483,7 +2493,7 @@ iframe {
 	border-bottom-left-radius: 15px;
 	clear: both;
 	color: #4A3E2E;
-	font-size: 12px;
+	font-family: PT Sans Regular;
 	padding: 9px 12px;
 	position: absolute;
 	right: 4px;
@@ -2504,21 +2514,20 @@ iframe {
 .listing-city-state-zip {
 	display: block;
 	color: #4A3E2E;
-	font-size: 17px;
 	line-height: 21px;
 	margin: 0 0 4px;
 	padding-bottom: 2px;
 	text-align: center;
-	font-family: 'Crimson Text', PT Sans Regular, sans-serif;
+	font-family: Crimson Text, sans-serif;
 }
 
 .listing-address {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .listing-city-state-zip {
 	margin: 0 0 19px;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .listing-wrap .more-link {
@@ -2749,7 +2758,7 @@ IE 8 and below. (Avoid IE8 max width bug)
 		text-align: center;
 		display: block;
 	}
-
+	
 	.header-image header .site-description {
 		display: none;
 	}
