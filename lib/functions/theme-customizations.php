@@ -76,7 +76,7 @@ class Must_See_Theme_Options {
 
 		// Logo Image
 		$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'logo_image', array(
-			'label'      => __( 'Custom Logo - Must be 480x70 or smaller', 'mustsee' ),
+			'label'      => __( 'Custom Logo - Max width of 399 pixels. Can be any height.', 'mustsee' ),
 			'section'    => 'title_tagline',
 			'settings'   => 'logo_image',
 			'priority'   => 4
