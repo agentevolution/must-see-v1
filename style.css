@@ -644,6 +644,10 @@ li a .sf-sub-indicator {
 	float: right;
 }
 
+.sidebar .post-meta {
+	font-family: PT Sans;
+}
+
 blockquote {
 	margin: 5px 0px 20px;
 	padding: 15px 0 20px;
@@ -704,6 +708,7 @@ p.subscribe-to-comments {
 
 .entry-footer .entry-meta {
 	color: #AA9C84;
+	font-family: PT Sans;
 }
 
 .entry-content a.more-link,
@@ -790,7 +795,7 @@ p.subscribe-to-comments {
 
 .home-middle p.byline .post-info {
 	color: #4A3E2E;
-	font-family: PT Sans;
+	font-family: PT Sans; 
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 22px;
@@ -822,11 +827,13 @@ p.subscribe-to-comments {
 
 .home-middle-left.one-half{
 	padding-right: 20px;
+	font-family: PT Sans;
 	padding-top: 30px;
 }
 
 .home-middle-right.one-half{
 	border-left: solid #AA9C84 1px;
+	font-family: PT Sans;
 	margin-left: 0;
 	padding: 30px 0 0 25px;
 }
@@ -1169,6 +1176,7 @@ h6 {
 
 .entry-header .entry-meta {
 	margin: 5px 0;
+	font-family: PT Sans;
 }
 
 .entry-footer .entry-meta,
