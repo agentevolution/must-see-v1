@@ -34,10 +34,7 @@ function mustsee_theme_setup() {
 
 	# Remove Unused User Settings
 	add_filter('user_contactmethods', 'mustsee_contactmethods');
-	remove_action( 'show_user_profile', 'genesis_user_options_fields' );
-	remove_action( 'edit_user_profile', 'genesis_user_options_fields' );
-	remove_action( 'show_user_profile', 'genesis_user_layout_fields' );
-	remove_action( 'edit_user_profile', 'genesis_user_layout_fields' );
+
 
 	# Include footer settings
 	require_once get_stylesheet_directory() . '/lib/functions/mustsee-footer-settings.php';
@@ -236,16 +233,22 @@ function mustsee_before_header() {
  */
 function mustsee_footer() {
 	echo '
-	<div class="one-half first" id="footer-left">',
-		do_shortcode(wpautop( genesis_get_option( 'footer-left', 'mustsee-footer-settings' ) )),
-	'</div>
-	<div class="one-half" id="footer-right">',
-		agentevo_footer_copy(),
-		do_shortcode(wpautop( genesis_get_option( 'footer-right', 'mustsee-footer-settings' ) )),
-	'</div>
-	<div id="footer-disclaimer">',
-		do_shortcode(wpautop( genesis_get_option( 'disclaimer', 'mustsee-footer-settings' ) )),
-	'</div>';
+	<div class="footer clearfix">
+		<div class="one-third first" id="footer-left">',
+			do_shortcode(wpautop( genesis_get_option( 'footer-left', 'mustsee-footer-settings' ) )),
+		'</div>
+		<div class="one-third" id="footer-center">',
+			do_shortcode(wpautop( genesis_get_option( 'footer-right', 'mustsee-footer-settings' ) )),
+		'</div>
+		<div class="one-third" id="footer-right">',
+			agentevo_footer_copy(),
+		'</div>
+	</div>
+	
+		<div class="disclaimer">',
+			do_shortcode(wpautop( genesis_get_option( 'disclaimer', 'mustsee-footer-settings' ) )),
+		'</div>
+	</div>';
 }
 
 /**
