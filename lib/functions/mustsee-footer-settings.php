@@ -44,7 +44,8 @@ class Must_See_Footer_Settings extends Genesis_Admin_Boxes {
 		# Set the default values
 		$default_settings = array(
 			'footer-left'   => 'Copyright &copy; ' . date( 'Y' ) . ' All Rights Reserved',
-			'footer-right'  => '',
+			 'footer-right'  => '<img src="wp-content/themes/must-see/images/realtor_image.png">' . 
+			 			 '<img src="wp-content/themes/must-see/images/eho_image.png">',
 			'disclaimer'    => ''
 		);
 
