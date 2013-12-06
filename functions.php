@@ -233,22 +233,16 @@ function mustsee_before_header() {
  */
 function mustsee_footer() {
 	echo '
-	<div class="footer clearfix">
-		<div class="one-third first" id="footer-left">',
-			do_shortcode(wpautop( genesis_get_option( 'footer-left', 'mustsee-footer-settings' ) )),
-		'</div>
-		<div class="one-third" id="footer-center">',
-			do_shortcode(wpautop( genesis_get_option( 'footer-right', 'mustsee-footer-settings' ) )),
-		'</div>
-		<div class="one-third" id="footer-right">',
-			agentevo_footer_copy(),
-		'</div>
-	</div>
-	
-		<div class="disclaimer">',
-			do_shortcode(wpautop( genesis_get_option( 'disclaimer', 'mustsee-footer-settings' ) )),
-		'</div>
-	</div>';
+	<div class="one-half first" id="footer-left">',
+		do_shortcode(wpautop( genesis_get_option( 'footer-left', 'mustsee-footer-settings' ) )),
+	'</div>
+	<div class="one-half" id="footer-right">',
+		agentevo_footer_copy(),
+		do_shortcode(wpautop( genesis_get_option( 'footer-right', 'mustsee-footer-settings' ) )),
+	'</div>
+	<div id="footer-disclaimer">',
+		do_shortcode(wpautop( genesis_get_option( 'disclaimer', 'mustsee-footer-settings' ) )),
+	'</div>';
 }
 
 /**
