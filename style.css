@@ -793,7 +793,7 @@ p.subscribe-to-comments {
 	text-shadow: -1px 1px #EEE3D0;
 }
 
-.home-middle p.byline .post-info {
+.home-middle-left p.byline.post-info {
 	color: #4A3E2E;
 	font-family: PT Sans; 
 	font-size: 16px;
