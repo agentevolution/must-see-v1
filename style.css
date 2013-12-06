@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-	Font-family: Crimson Text;
+	font-family: Crimson Text;
 }
 
 blockquote,
@@ -935,7 +935,8 @@ p.subscribe-to-comments {
 	margin-bottom: 0;
 }
 
-/* 04f - Column Classes ----------- */
+/* =Column Classes
+------------------------------------------------------------ */
 
 .five-sixths,
 .four-fifths,
@@ -1461,9 +1462,9 @@ p.wp-caption-text {
 	font-size: 22px;
 }
 
-sidebar h1,
-sidebar h2,
-sidebar h3 {
+.sidebar h1,
+.sidebar h2,
+.sidebar h3 {
 	color: #4A3E2E;
 }
 
@@ -1811,10 +1812,6 @@ body .searchsubmit {
 	width: 94%;
 }
 
-nav.nav-primary .searchform {
-	float: right;
-}
-
 .s {
 	font-size: 12px;
 	margin: 5px 2px 5px 0;
@@ -2045,7 +2042,7 @@ pre code {
 	padding: 0;
 }
 
-footer-widgets .cite {
+.footer-widgets .cite {
 	font-style: normal;
 }
 
@@ -2297,7 +2294,7 @@ div.gform_wrapper .gform_footer {
 ------------------------------------------------------------ */
 
 .property-details {
-	background-color: #F5EBD9;
+	background-color: #e7ddc5;
 	overflow: hidden;
 	margin: 0 0 30px;
 	padding: 15px 20px 0;
@@ -2810,33 +2807,6 @@ IE 8 and below. (Avoid IE8 max width bug)
 /*  teal Theme 
 -----------------------------------*/
 
-/*teal background & text color*/
-
-
-/* Site title
------------------------------------*/
-
-/*text brown*/
-.mustsee-teal .site-title a,
-.mustsee-teal .site-title a:visited,
-.mustsee-teal .site-title {
-	color: #4A3E2E;
-} 
-
-/*  Navigation
------------------------------------*/
-
-/*Nav text brown*/
-.mustsee-teal .genesis-nav-menu,
-.mustsee-teal .genesis-nav-menu a, 
-.mustsee-teal .genesis-nav-menu a:link {
-	color: #AA9C84;
-}
-
-.mustsee-teal .genesis-nav-menu a:hover {
-	color: #4A3E2E;
-}
-
 /* Home Page
 -----------------------------------*/
 
@@ -2850,14 +2820,6 @@ IE 8 and below. (Avoid IE8 max width bug)
 .mustsee-teal .listing-text {
 	background: #4B3F2F;
 	color: #F5EBD9;
-}
-
-/*homepage text brown*/
-.mustsee-teal .home-middle h2,
-.mustsee-teal .home-middle h2 a,
-.mustsee-teal .home-middle h2 a:visited {
-	color: #4A3E2E;
-	font-family: Crimson Text;
 }
 
 /*homepage links teal*/
@@ -2876,24 +2838,8 @@ IE 8 and below. (Avoid IE8 max width bug)
 	color: #496B66;
 }
 
-.mustsee-teal .home-bottom h2,
-.mustsee-teal .home-bottom h2 a,
-.mustsee-teal .home-bottom h2 a:visited {
-	color: #F5EBD9;
-}
-
 /* Other 
 -----------------------------------*/
-
-/*brown text*/
-.mustsee-teal h2.entry-title,
-.mustsee-teal h2.entry-title a,
-.mustsee-teal h2.entry-title a:visited,
-.mustsee-teal .sidebar h2,
-.mustsee-teal .sidebar h2 a,
-.mustsee-teal .sidebar h2 a:visited {
-	color: #4A3E2E;
-}
 
 /*buttons*/
 .mustsee-teal .sidebar p.more-from-category {
@@ -2949,45 +2895,12 @@ IE 8 and below. (Avoid IE8 max width bug)
 	text-decoration: inherit;
 }
 
-/*  Footer colors
------------------------------------*/
-/*off white text*/
-.mustsee-teal .footer-widgets,
-.mustsee-teal .footer-widgets a,
-.mustsee-teal .footer-widgets a:visited ,
-.mustsee-teal .site-footer,
-.mustsee-teal .site-footer a,
-.mustsee-teal .site-footer a:visited {
-	color: #F5EBD9;
-}
 
 /*  Orange Theme 
 -----------------------------------*/
 
 /*  Site title
 -----------------------------------*/
-
-/*text brown*/
-.mustsee-orange .site-title a,
-.mustsee-orange .site-title a:visited,
-.mustsee-orange .site-title {
-	color: #4A3E2E;
-} 
-
-/*  Navigation
------------------------------------*/
-
-/*Nav text brown*/
-.mustsee-orange .genesis-nav-menu,
-.mustsee-orange .genesis-nav-menu a, 
-.mustsee-orange .genesis-nav-menu a:link {
-	color: #AA9C84;
-}
-
-.mustsee-orange .genesis-nav-menu a:hover {
-	color: #4A3E2E;
-}
-
 /*  Home Page
 -----------------------------------*/
 
@@ -3001,13 +2914,6 @@ IE 8 and below. (Avoid IE8 max width bug)
 .mustsee-orange .listing-text {
 	background: #4B3F2F;
 	color: #F1E8D7; 
-}
-
-/*homepage text brown*/
-.mustsee-orange .home-middle h2,
-.mustsee-orange .home-middle h2 a,
-.mustsee-orange .home-middle h2 a:visited {
-	color: #4A3E2E;
 }
 
 /*homepage links orange*/
@@ -3026,24 +2932,8 @@ IE 8 and below. (Avoid IE8 max width bug)
 	color: #C66132;
 }
 
-.mustsee-orange .home-bottom h2,
-.mustsee-orange .home-bottom h2 a,
-.mustsee-orange .home-bottom h2 a:visited {
-	color: #F5EBD9;
-}
-
 /* Other 
 -----------------------------------*/
-
-/*brown text*/
-.mustsee-orange h2.entry-title,
-.mustsee-orange h2.entry-title a,
-.mustsee-orange h2.entry-title a:visited,
-.mustsee-orange .sidebar h2,
-.mustsee-orange .sidebar h2 a,
-.mustsee-orange .sidebar h2 a:visited {
-	color: #4A3E2E;
-}
 
 /*buttons*/
 .mustsee-orange .sidebar p.more-from-category {
@@ -3096,18 +2986,4 @@ IE 8 and below. (Avoid IE8 max width bug)
 .mustsee-orange .entry-content a.more-link a:visited {
 	color: #C66132;
 	text-decoration: inherit;
-}
-
-
-
-/*  Footer colors
------------------------------------*/
-/*off white text*/
-.mustsee-orange .footer-widgets,
-.mustsee-orange .footer-widgets a,
-.mustsee-orange .footer-widgets a:visited ,
-.mustsee-orange .site-footer,
-.mustsee-orange .site-footer a,
-.mustsee-orange .site-footer a:visited {
-	color: #F5EBD9;
 }
