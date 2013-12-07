@@ -1163,6 +1163,10 @@ h6 {
 	margin: 0 0 0 35px;
 }
 
+.entry-content h2 a {
+	border-bottom: 4px solid #DACCB3;
+}
+
 .archive-page ul ul,
 .entry-content ol ol,
 .entry-content ul ul {
@@ -1533,7 +1537,7 @@ p.wp-caption-text {
 .content .featuredpost .post {
 	margin: 0 0 5px;
 	overflow: hidden;
-	padding: 5px 10px 10px;
+	padding: 0px 10px 10px;
 }
 
 .sidebar .more-from-category {
@@ -2231,7 +2235,7 @@ iframe {
 }
 
 .listing-city-state-zip {
-	margin: 0 0 27px;
+	margin: 0 0 18px;
 	font-size: 12px;
 }
 
@@ -2313,10 +2317,6 @@ IE 8 and below. (Avoid IE8 max width bug)
 	.wrap {
 		width: 1140px;
 	}
-	.home-middle-right .listing-wrap {
-		float: none;
-		margin: 7px 0;
-	}
 }
 
 /* Desktop to Large Desktop */
@@ -2338,28 +2338,8 @@ IE 8 and below. (Avoid IE8 max width bug)
 	.listing-text {
 		right: -4px;
 	}
-	.featuredpost.widget a img {
-		width: 100%;
-	}
-	.listing-wrap a img {
-		width: 100%;
-	}
-	.home-middle-left.one-half {
-		border-right: none;
-		padding-right: 0px;
-		padding-top: 30px;
-		width: 100%;
-	}
 	.home-middle-right.one-half {
-		border: none;
-		margin-left: 4px;
-		padding: 0;
-		width: 99%;
-	}
-	.home-middle-right .listing-wrap {
-		float: none;
-		margin: 0;
-		width: 99%;
+		padding: 30px 0 0 19px;
 	}
 	.slide-caption {
 		background-color: rgba(0, 0, 0, 0.4);
@@ -2427,10 +2407,6 @@ IE 8 and below. (Avoid IE8 max width bug)
 	.listing-text {
 		right: -4px;
 	}
-	.listing-wrap {
-		float: none;
-		margin-bottom: 53px;
-	}
 	#footer-right p img {
 		margin-top: -23px;
 		padding: 0;
@@ -2495,7 +2471,7 @@ IE 8 and below. (Avoid IE8 max width bug)
 	.home-middle-right.one-half {
 		border: none;
 		margin-left: 5px;
-		padding: 30px 0;
+		padding: 30px 0 0;
 		width: 100%;
 	}
 	.slide-caption {
