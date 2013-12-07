@@ -835,7 +835,7 @@ p.subscribe-to-comments {
 	border-left: solid #AA9C84 1px;
 	font-family: PT Sans;
 	margin-left: 0;
-	padding: 30px 0 0 25px;
+	padding: 30px 0 25px 25px;
 }
 
 /* =Home Bottom
@@ -1161,10 +1161,6 @@ h6 {
 
 .entry-content ol li {
 	margin: 0 0 0 35px;
-}
-
-.entry-content h2 a {
-	border-bottom: 4px solid #DACCB3;
 }
 
 .archive-page ul ul,
@@ -2317,6 +2313,10 @@ IE 8 and below. (Avoid IE8 max width bug)
 	.wrap {
 		width: 1140px;
 	}
+	.home-middle-right .listing-wrap {
+		float: none;
+		margin: 7px 0;
+	}
 }
 
 /* Desktop to Large Desktop */
@@ -2338,17 +2338,28 @@ IE 8 and below. (Avoid IE8 max width bug)
 	.listing-text {
 		right: -4px;
 	}
+	.featuredpost.widget a img {
+		width: 100%;
+	}
+	.listing-wrap a img {
+		width: 100%;
+	}
 	.home-middle-left.one-half {
 		border-right: none;
-		padding-right: 10px;
+		padding-right: 0px;
 		padding-top: 30px;
+		width: 100%;
 	}
 	.home-middle-right.one-half {
+		border: none;
 		margin-left: 4px;
-		padding: 30px 0 0 18px;
+		padding: 0;
+		width: 99%;
 	}
-	.listing-wrap {
+	.home-middle-right .listing-wrap {
 		float: none;
+		margin: 0;
+		width: 99%;
 	}
 	.slide-caption {
 		background-color: rgba(0, 0, 0, 0.4);
@@ -2405,7 +2416,7 @@ IE 8 and below. (Avoid IE8 max width bug)
 	}
 	.home-middle-right.one-half {
 		margin-left: 5px;
-		padding: 30px 0 0 18px;
+		padding: 21px 0px 50px;
 	}
 	.featuredpost.widget a img {
 		width: 100%;
@@ -2418,6 +2429,7 @@ IE 8 and below. (Avoid IE8 max width bug)
 	}
 	.listing-wrap {
 		float: none;
+		margin-bottom: 53px;
 	}
 	#footer-right p img {
 		margin-top: -23px;
@@ -2453,9 +2465,14 @@ IE 8 and below. (Avoid IE8 max width bug)
 	}
 	.entry-content {
 		width: 100%;
+		float: left;
+	}
+	.entry-content p {
+		width: 100%;
+		float: left;
 	}
 	.content {
-		width: 85%;
+		width: 100%;
 	}
 	.post-type-archive-listing .listing-text {
 		right: 4px;
@@ -2473,10 +2490,13 @@ IE 8 and below. (Avoid IE8 max width bug)
 		border-right: none;
 		padding-right: 8px;
 		padding-top: 30px;
+		width: 100%;
 	}
 	.home-middle-right.one-half {
+		border: none;
 		margin-left: 5px;
-		padding: 30px 0 0 13px;
+		padding: 30px 0;
+		width: 100%;
 	}
 	.slide-caption {
 		display: none;
@@ -2569,6 +2589,7 @@ IE 8 and below. (Avoid IE8 max width bug)
 		border-right: none;
 		padding-right: 8px;
 		padding-top: 30px;
+		width: 100%;
 	}
 	.home-middle-right.one-half {
 		margin-left: 0;
@@ -2614,6 +2635,9 @@ IE 8 and below. (Avoid IE8 max width bug)
 	}
 	.home-bottom .heading {
 		line-height: 150%;
+	}
+	.footer-widgets .agent-social-icons{
+		text-align: left;
 	}
 }
  
