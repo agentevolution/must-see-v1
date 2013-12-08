@@ -72,14 +72,19 @@ function mustsee_home_loop_helper() {
 	}
 
 	if ( is_active_sidebar( 'home-bottom' ) ) {
+
 		echo '
-		<div class="home-bottom">
-			<div class="wrap">';
+
+		<div class="home-bottom">';
+
 			dynamic_sidebar( 'home-bottom' );
+
 		echo '
-			</div><!-- end .wrap -->
 		</div><!-- end .home-bottom -->';
+
 	}
+
+}
 }
 
 /**
