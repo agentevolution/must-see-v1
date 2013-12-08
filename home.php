@@ -85,7 +85,7 @@ function mustsee_home_loop_helper() {
 	}
 
 }
-}
+
 
 /**
  * Returns true if any of the mustsee sidebars are active
