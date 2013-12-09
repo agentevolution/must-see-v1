@@ -2340,6 +2340,12 @@ IE 8 and below. (Avoid IE8 max width bug)
         .listing-text {
                 right: -4px;
         }
+        .listing-wrap {
+            width: 100%;
+        }
+        .listing-wrap a img {
+                width: 100%;
+        }
         .home-middle-right.one-half {
                 padding: 30px 0 0 19px;
         }
@@ -2402,6 +2408,9 @@ IE 8 and below. (Avoid IE8 max width bug)
         }
         .featuredpost.widget a img {
                 width: 100%;
+        }
+        .listing-wrap {
+            width: 100%;
         }
         .listing-wrap a img {
                 width: 100%;
