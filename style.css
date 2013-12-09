@@ -1418,6 +1418,8 @@ p.wp-caption-text {
         width: 100%;
 }
 
+.pagination a
+
 .pagination li {
         display: inline;
 }
@@ -2853,7 +2855,8 @@ IE 8 and below. (Avoid IE8 max width bug)
 .mustsee-orange .sidebar a,
 .mustsee-orange .entry-content a,
 .mustsee-orange .post-meta .entry-categories a, 
-.mustsee-orange .entry-tags a
+.mustsee-orange .entry-tags a,
+.mustsee-orange .pagination a,
 .mustsee-orange .comment-list a  {
         color: #C66132;
         text-decoration: inherit;
