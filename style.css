@@ -341,7 +341,7 @@ header.site-header {
 }
 
 header.site-header .wrap {
-    padding: 20px 0 8px;
+    padding: 20px 0 0px;
 }
 
 .title-area {
@@ -434,7 +434,6 @@ header .widget-area .agent-phone {
 .genesis-nav-menu {
     float: right;
     width: auto;
-    margin: 12px 0 0;
 }
 
 .genesis-nav-menu ul {
@@ -448,7 +447,6 @@ header .widget-area .agent-phone {
     display: inline-block;
     float: left;
     list-style-type: none;
-    padding: 5px 0 0 4px;
     text-align: left;
 }
 
