@@ -878,7 +878,7 @@ p.subscribe-to-comments {
 }
 
 .home-bottom .btn {
-    margin-top: 290px;
+    margin-top: 260px;
 }
 
 .heading {
@@ -2473,6 +2473,7 @@ IE 8 and below. (Avoid IE8 max width bug)
     .home-middle-left.one-half {
         border-right: none;
         padding-right: 8px;
+        margin-top: 250px;
         padding-top: 30px;
         width: 100%;
     }
@@ -2576,7 +2577,7 @@ IE 8 and below. (Avoid IE8 max width bug)
         right: -4px;
     }
     .home-bottom .btn {
-        margin-top: 250px;
+        margin-top: 275px;
     }
     .home-bottom .heading {
         line-height: 125%;
@@ -2615,6 +2616,9 @@ IE 8 and below. (Avoid IE8 max width bug)
     .footer-widgets .agent-social-icons{
         text-align: left;
     }
+    .home-bottom .btn {
+        margin-top: 230px;
+    }
 }
  
 /* Landscape phones and down */
@@ -2644,6 +2648,9 @@ IE 8 and below. (Avoid IE8 max width bug)
     .home-bottom .heading {
         line-height: 150%;
     }
+    .home-bottom .btn {
+        margin-top: 230px;
+    
 }
 
 /* Portrait iPhone */
@@ -2655,7 +2662,7 @@ IE 8 and below. (Avoid IE8 max width bug)
         background: none;
     }
     .home-bottom .btn {
-         margin-top: 270px;
+         margin-top: 230px;
     }
 }
 
