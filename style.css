@@ -2750,7 +2750,12 @@ IE 8 and below. (Avoid IE8 max width bug)
 .mustsee-teal a.post-edit-link a:visited,
 .mustsee-teal .entry-content a.more-link,
 .mustsee-teal .entry-content a.more-link a,
-.mustsee-teal .entry-content a.more-link a:visited {
+.mustsee-teal .entry-content a.more-link a:visited,
+.mustsee-teal .entry-categories a
+.mustsee-teal .entry-tags a,
+.mustsee-teal .sidebar a, 
+.mustsee-teal .entry-content a,
+.mustsee-teal .post-meta .entry-categories a  {
 	color: #496B66;
 	text-decoration: inherit;
 }
@@ -2842,7 +2847,12 @@ IE 8 and below. (Avoid IE8 max width bug)
 .mustsee-orange a.post-edit-link a:visited,
 .mustsee-orange .entry-content a.more-link,
 .mustsee-orange .entry-content a.more-link a,
-.mustsee-orange .entry-content a.more-link a:visited {
+.mustsee-orange .entry-content a.more-link a:visited,
+.mustsee-orange .entry-categories a,
+.mustsee-orange .sidebar a,
+.mustsee-orange .entry-content a,
+.mustsee-orange .post-meta .entry-categories a, 
+.mustsee-orange .entry-tags a  {
 	color: #C66132;
 	text-decoration: inherit;
 }
