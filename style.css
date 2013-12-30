@@ -47,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
 }
 
 blockquote,
@@ -141,7 +141,7 @@ input,
 button,
 select,
 textarea {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
 }
 
 select,
@@ -355,7 +355,7 @@ header.site-header .wrap {
 .site-title {
     background-repeat: no-repeat;
     color: #4A3E2E;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 48px;
     line-height: 30px;
     margin: 0 0 5px;
@@ -369,7 +369,7 @@ header.site-header .wrap {
 
 .site-title h1,
 .site-title p {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 48px;
     line-height: 30px;
     padding-left: 64px;
@@ -377,7 +377,7 @@ header.site-header .wrap {
 
 .site-description,
 .site-description p {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 20px;
     color: #AA9C84;
     padding: 0;
@@ -386,7 +386,7 @@ header.site-header .wrap {
 
 header .widget-area {
     float: right;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     width: 60%;
 }
 
@@ -394,7 +394,7 @@ header .widget-area .agent-phone {
     display: block;
     text-align: right;
     font-size: 22px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-weight: bold;
     margin-bottom: 4px;
     color: #AA9C84;
@@ -426,7 +426,7 @@ header .widget-area .agent-phone {
 
 .genesis-nav-menu {
     clear: both;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 24px;
     overflow: hidden;
 }
@@ -642,7 +642,7 @@ li a .sf-sub-indicator {
 }
 
 .sidebar .post-meta {
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
 }
 
 blockquote {
@@ -671,7 +671,7 @@ a.entry-author-link {
 .entry-content {
     overflow: hidden;
     color: #4A3E2E;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
     padding: 0 0 15px;
 }
@@ -705,7 +705,7 @@ p.subscribe-to-comments {
 
 .entry-footer .entry-meta {
     color: #AA9C84;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .entry-content a.more-link,
@@ -721,7 +721,7 @@ p.subscribe-to-comments {
     background-color: #F1E8D7;
     border-bottom: 2px solid #AA9C70;
     color: #4A3E2E;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 24px;
     line-height: 150%;
     margin-bottom: 1px;
@@ -732,7 +732,7 @@ p.subscribe-to-comments {
 .welcome p {
     background-color: #F1E8D7;
     color: #4A3E2E;
-    font-family:  Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 24px;
     line-height: 150%;
     padding: 20px 0;
@@ -751,13 +751,13 @@ p.subscribe-to-comments {
 
 .slide-caption h3  {
     color: #F5EBD9;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 23px;
 }
 
 .slide-caption p {
-    font-family: PT Sans;
     color: #F5EBD9;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 15px;
     line-height: 170%;
 }
@@ -769,7 +769,7 @@ p.subscribe-to-comments {
     background-image: url('images/home_middle_bg.png');
     border-bottom: solid #AA9C84 4px;
     border-top: solid #AA9C84 2px;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     -webkit-box-shadow: inset 0px 70px 50px -90px  rgba(0,0,0,1);
     -moz-box-shadow:    inset 0px 70px 50px -90px  rgba(0,0,0,1);
     box-shadow:         inset 0px 70px 50px -90px  rgba(0,0,0,1);
@@ -783,7 +783,7 @@ p.subscribe-to-comments {
 
 .home-middle h2,
 .home-middle h2 a {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 28px;
     color: #4A3E2E;
     text-align: center;
@@ -792,7 +792,7 @@ p.subscribe-to-comments {
 
 .home-middle-left p.byline.post-info {
     color: #4A3E2E;
-    font-family: PT Sans; 
+    font-family: 'PT Sans', Arial, sans-serif; 
     font-size: 16px;
     font-weight: normal;
     line-height: 22px;
@@ -807,7 +807,7 @@ p.subscribe-to-comments {
 .home-middle .listing-city-state-zip a:visited,
 .home-middle .entry-time {
     color: #4A3E2E;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
     padding: 0;
     text-align: center;
@@ -824,13 +824,13 @@ p.subscribe-to-comments {
 
 .home-middle-left.one-half{
     padding-right: 20px;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     padding-top: 30px;
 }
 
 .home-middle-right.one-half{
     border-left: solid #AA9C84 1px;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     margin-left: 0;
     padding: 30px 0 25px 25px;
 }
@@ -853,13 +853,13 @@ p.subscribe-to-comments {
 
 .home-bottom h2 a {
     color: #F5EBD9;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 36px;
 }
 
 .home-bottom p {
     color: #F5EBD9;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 24px;
     padding: 15px;
 }
@@ -1037,7 +1037,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     margin: 0 0 5px;
 }
 
@@ -1105,7 +1105,7 @@ h2 a:hover {
 }
 
 .footer-widgets blockquote {
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
     background: none;
     margin-bottom: 10px;
@@ -1175,7 +1175,7 @@ h6 {
 
 .entry-header .entry-meta {
     margin: 5px 0;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
 }
 
 .entry-footer .entry-meta,
@@ -1542,7 +1542,7 @@ p.wp-caption-text {
     background-color: #552448;
     border: 1px solid #3B1832;
     color: #F1E8D7;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 24px;
     margin-bottom: 20px;
     padding: 13px;
@@ -1762,7 +1762,7 @@ input.btn-orange,
 .btn-teal,
 .btn-orange,
 .btn-purple {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 28px;
     text-transform: uppercase;
 }
@@ -1870,7 +1870,7 @@ body .searchsubmit {
     background-image: url('images/footer_widget_bg.png');
     border-top: solid #2F2A1B 2px;
     color: #F5EBD9;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 12px;
     padding: 32px 0;
     width: 100%;
@@ -1891,14 +1891,14 @@ body .searchsubmit {
 
 .footer-widgets p {
     color: #F5EBD9;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
     text-align: left;
 }
 
 .footer-widgets .textwidget {
     color: #F5EBD9;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
     padding: 0;
 }
@@ -1923,7 +1923,7 @@ body .searchsubmit {
 .footer-widgets h2 a,
 .footer-widgets a {
     color: #F5EBD9;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -1949,7 +1949,7 @@ body .searchsubmit {
 .footer-widgets .menu li a {
     font-size: 16px;
     text-transform: uppercase;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     margin-bottom: 20px;
     display: inline-block;
 }
@@ -2188,7 +2188,7 @@ iframe {
     background: #552448;
     clear: both;
     color: #F1E8D7;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 16px;
     left: 4px;
     padding: 10px;
@@ -2203,7 +2203,7 @@ iframe {
     background: #F1E8D7;
     clear: both;
     color: #4A3E2E;
-    font-family: PT Sans;
+    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 18px;
     padding: 9px 12px;
     position: absolute;
@@ -2216,17 +2216,17 @@ iframe {
 
 .listing-address,
 .listing-city-state-zip {
-    display: block;
     color: #4A3E2E;
+    display: block;
+    font-family: 'Crimson Text', Times, serif;
     line-height: 21px;
     margin: 0 0 7px;
     padding-bottom: 2px;
     text-align: center;
-    font-family: Crimson Text;
 }
 
 .listing-address {
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 28px;
     margin-top: 9px;
     text-shadow: -1px 1px #EEE3D0;
@@ -2272,7 +2272,7 @@ iframe {
 .masonry-item h2 a,
 .masonry-item h2 a:visited {
     color: #4A3E2E;
-    font-family: Crimson Text;
+    font-family: 'Crimson Text', Times, serif;
     font-size: 26px;
     text-decoration: none;
     text-align: center;
