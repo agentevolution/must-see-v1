@@ -2172,7 +2172,7 @@ iframe {
 }
 
 .post-type-archive-listing .listing-wrap a img {
-    width: auto;
+    width: 97%;
 }
 
 .listing-wrap a img {
@@ -2234,7 +2234,7 @@ iframe {
 
 .listing-city-state-zip {
     margin: 0 0 18px;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .listing-wrap .more-link {
