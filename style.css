@@ -334,7 +334,7 @@ body {
 header.site-header {
     color: #4A3E2E;
     overflow: hidden;
-    padding: 20px 0 50px;
+    padding: 10px 0 20px;
     width: 100%;
     min-height: 86px;
     background: url(images/bg-header.png);
@@ -2033,6 +2033,7 @@ footer.site-footer a,
     height: 150px;
     margin: 10px 0;
     width: 97%;
+    background: #fff;
 }
 
 .ping-list {
