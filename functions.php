@@ -265,9 +265,9 @@ function agentevo_footer_copy() {
     $output = '<p class="credits">';
 
     if ( is_home() || is_front_page() ) {
-        $output .= '<a href="http://themes.agentevolution.com">' . $footer_copy[$key] . '</a>';
+        $output .= '<a href="http://www.agentevolution.com">' . $footer_copy[$key] . '</a>';
     } else {
-        $output .= '<a href="http://themes.agentevolution.com/shop/must-see">Must See Theme</a>';
+        $output .= '<a href="http://www.agentevolution.com/shop/must-see">Must See Theme</a>';
     }
 
     $output .= '</p>';
@@ -332,7 +332,7 @@ function mustsee_child_theme_setup(){
 
     /* updater args */
     $updater_args = array(
-        'repo_uri'  => 'http://themes.agentevolution.com/',
+        'repo_uri'  => 'http://www.agentevolution.com/',
         'repo_slug' => 'must-see',
     );
 
