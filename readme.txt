@@ -12,3 +12,9 @@ Please visit <a href="http://www.agentevolution.com/guide/must-see-theme-setup-g
 
 <strong>SUPPORT</strong>
 Please visit <a href="http://www.agentevolution.com/forums/topic/must-see">http://www.agentevolution.com/forums/topic/must-see/</a> for theme support.
+
+** 1.0.1 **
+CSS fix for form inputs on some IDX's
+
+** 1.0 **
+Initial release
