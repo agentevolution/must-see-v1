@@ -3,7 +3,7 @@
         Description: Responsive real estate theme for Genesis
         Author: Agent Evolution
         Author URI: http://agentevolution.com
-        Version: 1.0.1
+        Version: 1.0.2
         License: GNU General Public License v2 or later
         License URI: http://www.gnu.org/licenses/gpl-2.0.html
         Tags: real-estate, agentevolution, genesis, html5, dark, light, white, black, gray, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
@@ -450,8 +450,7 @@ header .widget-area .agent-phone {
 .genesis-nav-menu a {
     color: #AA9C84;
     display: block;
-    padding: 24px 20px;
-    padding: 1.5rem 1.25rem;
+    padding: 24px 20px 10px;
     position: relative;
     text-decoration: none;
 }
@@ -2515,9 +2514,6 @@ IE 8 and below. (Avoid IE8 max width bug)
         width: 100%;
         float: left;
     }
-    .entry-content {
-        width: 85%;
-    }
     header.site-header .wrap {
         padding: 10px 0 0;
     }
@@ -2601,9 +2597,6 @@ IE 8 and below. (Avoid IE8 max width bug)
     .agent-social-icons {
         margin-top: 10px;
         text-align: center;
-    }
-    .entry-content {
-        width: 85%;
     }
     .home-bottom .heading {
         line-height: 150%;
