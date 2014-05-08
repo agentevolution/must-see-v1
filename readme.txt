@@ -13,6 +13,12 @@ Please visit <a href="http://www.agentevolution.com/guide/must-see-theme-setup-g
 <strong>SUPPORT</strong>
 Please visit <a href="http://www.agentevolution.com/forums/topic/must-see">http://www.agentevolution.com/forums/topic/must-see/</a> for theme support.
 
+<strong>CHANGELOG</strong>
+
+** 1.0.3 **
+Rename AgentPress template files so WP Listings templates take precedence
+* If you wat to continue using AgentPress, rename the files archive-listing-agentpress.php, single-listing-agentpress.php, and taxonomy-agentpress.php to archive-listing.php, single-listing.php, and taxonomy.php
+
 ** 1.0.2 **
 Fix for entry content width on mobile devices
 

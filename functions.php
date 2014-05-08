@@ -39,9 +39,6 @@ function mustsee_theme_setup() {
 	# Include footer settings
 	require_once get_stylesheet_directory() . '/lib/functions/mustsee-footer-settings.php';
 
-	# Customize link under the appearance tab
-	add_action('admin_menu', 'mustsee_customize_menu_link');
-
 	# add documentation link to menu bar
 	add_action('wp_before_admin_bar_render', 'mustsee_add_documentation_link_to_admin_bar');
 
